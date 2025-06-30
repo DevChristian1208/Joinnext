@@ -34,7 +34,6 @@ const ItemType = {
 // Draggable Task Component
 function DraggableTask({
   task,
-  moveTask,
 }: {
   task: Task;
   moveTask: (taskId: number, toColumn: ColumnType) => void;
